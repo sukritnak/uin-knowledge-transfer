@@ -1,0 +1,17 @@
+{
+    "presets": [
+        "next/babel"
+    ],
+    "plugins": [
+        [
+            "styled-components",
+            {
+                "ssr": true,
+                "displayName": true,
+                "preprocess": false
+            }
+        ],
+        "babel-plugin-macros",
+        "@babel/plugin-proposal-export-default-from",
+    ]
+}
